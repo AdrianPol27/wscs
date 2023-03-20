@@ -1,3 +1,14 @@
+<?php
+
+  session_start();
+  ob_start();
+
+  $invalid = array();
+  $success = array();
+  $info = array();
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
